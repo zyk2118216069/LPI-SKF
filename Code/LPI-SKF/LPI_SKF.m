@@ -39,7 +39,7 @@ final=zeros(990,27);
         F1(i)=(2*Recall(i)*Precision(i))/(Recall(i)+Precision(i));
     end
     [f1,index]=max(F1);
-    fprintf('AUC: %¡£3f  AUPR: %.3f  Recall: %.3f  Precision: %.3f  F1: %.3f \n', AUC, AUPR, Recall(index),Precision(index),f1)
+    fprintf('AUC: %.3f  AUPR: %.3f  Recall: %.3f  Precision: %.3f  F1: %.3f \n', AUC, AUPR, Recall(index),Precision(index),f1)
 end
 
 function [LapA] = LapRLS(W1,W2,inter3, lambda, beta)
@@ -67,7 +67,7 @@ end
 function [W]=SKF(Wall,K,t,ALPHA)
 %This program is recoded by reference follow: 
 % Wang, B., Mezlini, A. M., Demir, F., Fiume, M., Tu, Z., Brudno, M., et al. (2014). 
-% Similarity network fusion for aggregating data types on a genomic scale. Nature Methods, 11, 333¨C337
+% Similarity network fusion for aggregating data types on a genomic scale. Nature Methods, 11, 333Â¨C337
 C = length(Wall);
 [m,n]=size(Wall{1});
 
