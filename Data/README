@@ -1,0 +1,5 @@
+4158 lncRNA-protein interactions were selected according to the previous study(Zhang et al., 2018), which is shown in the Interaction matrix.csv.
+The Ensembl ID of 990 lncRNAs is shown in the LncRNA.csv, and the LncRNA Sequence.txt collect the sequence of all 990 lncRNAs.
+similarly， the Uniprot ID of 27 proteins is shown in the Protein.csv, and the Protein Sequence.txt collect the sequence of all 27 proteins.
+The Final score matrix.csv is the final prediction matrix of our model, what's more, the prediction matrix of other models is shown in the file, Other methods prediction matrix.
+Zhang, W., Qu, Q., Zhang, Y., Wang, W., 2018. The linear neighborhood propagation method for predicting long non-coding RNA–protein interactions. Neurocomputing 273, 526–534. https://doi.org/10.1016/j.neucom.2017.07.065
