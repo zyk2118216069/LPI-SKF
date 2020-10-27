@@ -1,3 +1,7 @@
 # LPI-SKF
-此次代码由MATLAB R2018b编写，代码文件中包括本次论文中的所有代码，和用于比较的其他几种方法的代码。
-数据包括所使用的所有关联，对应lncRNA和protein的种类以及其序列。
+This model is proposed to predict lncRNA-protein interactions, which can be summarized in four steps:
+Firstly, we downloaded experimentally verified lncRNA-protein interactions from the NPInter v2.0 database. 4158 lncRNA-protein interactions were selected according to the previous work, including 990 lncRNAs and 27 proteins. The interactions are shown in the Data/Interaction matrix.csv. Other files will be introduced detailly in the Data/README.txt
+Secondly, three different similarities of lncRNAs and three different similarities of proteins are calculated in different ways, respectively. Among these similarities, the lncRNA expression profile similarity, the protein pairwise sequence alignment similarity, and the sequence statistical feature similarity of both lncRNAs and proteins are shown in the Code/LPI-SKF/data.mat.
+Thirdly, the SKF approach is utilized to integrate the lncRNA similarities and protein similarities. 
+Finally, the Laplacian Regularized Least Squares frame is applied to obtain our final prediction matrix. The code of SKF and LapRLS is shown in Code/LPI-SKF/LPI_SKF.m.
+All data and code will be introduced in different folders.
