@@ -1,5 +1,5 @@
 This folder is created for the code of other models, including SFPEL, LPI-IBNRA, LPINI, LPIHN, RWR and CF. 
-The code and data of LPINI, LPIHN, RWR and CF is shown in the file, **others**, which is referenced from Zhang, W., Qu, Q., Zhang, Y., Wang, W., 2018b. The linear neighborhood propagation method for predicting long non-coding RNA–protein interactions. Neurocomputing 273, 526–534. https://doi.org/10.1016/j.neucom.2017.07.065
+The code and data of LPINI, LPIHN, RWR and CF is shown in the file, others, which is referenced from Zhang, W., Qu, Q., Zhang, Y., Wang, W., 2018b. The linear neighborhood propagation method for predicting long non-coding RNA–protein interactions. Neurocomputing 273, 526–534. https://doi.org/10.1016/j.neucom.2017.07.065
 The code of SFPEL is referenced from Zhang, W., Yue, X., Tang, G., Wu, W., Huang, F., Zhang, X., 2018c. SFPEL-LPI: Sequence-based feature projection ensemble learning for predicting LncRNA-protein interactions. PLoS Comput Biol 14. https://doi.org/10.1371/journal.pcbi.1006616.
 There are two codes in the SFPEL file, the SFPEL_lncRNA.m is used to predicting lncRNA-protein interactions for new lncRNAs and the SFPEL_protein.m is used to predicting lncRNA-protein interactions for new proteins.
 All code can be run directly.
