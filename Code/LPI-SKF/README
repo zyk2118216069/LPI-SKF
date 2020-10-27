@@ -1,0 +1,1 @@
+There are three different Matlab codes in this folder, the LPI-SKF.m is used to predict uncover lncRNA-protein interactions, the LPI_SKF_new_lncRNA.m is used to predict lncRNA-protein interactions for new lncRNA, and the LPI_SKF_new_protein.m is used to predict lncRNA-protein interactions for new protein
